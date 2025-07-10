@@ -1,0 +1,19 @@
+.product-import-preview-table-wrapper {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.product-import-preview-table-wrapper table {
+    width: 100%;
+}
+
+.product-import-preview-table th,
+.product-import-preview-table td {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 4px 8px;
+}
+
+.product-import-preview-table tr:last-child td {
+    border-bottom: none;
+}
